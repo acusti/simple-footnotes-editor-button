@@ -7,8 +7,8 @@
  * Author: Andrew Patton
  * Author URI: http://www.purecobalt.com/
  * License: CC0
- * Text Domain: 
- * Domain Path:
+ * Text Domain: simple-footnotes-editor-button
+ * Domain Path: languages
  */
 class simple_footnotes_editor_button {
 
@@ -54,7 +54,7 @@ class simple_footnotes_editor_button {
 		// Use inline JS (instead of an external JS file) to simplify translation
 		$setup_function = 'function(ed) {
 			ed.addButton("simple-footnote", {
-				title : "' . __( 'Insérer une note de bas de page', 'simple-footnotes-editor-button' ) . '",
+				title : "' . __( 'Insert a footnote', 'simple-footnotes-editor-button' ) . '",
 				image : "' . plugins_url( 'footnote-icon.png', __FILE__ ) . '",
 				onclick : function() {
 					ed.windowManager.open({
@@ -62,7 +62,7 @@ class simple_footnotes_editor_button {
 						width : 480,
 						height : "auto",
 						wpDialog : true,
-						title : "' . __( 'Insérer une note de bas de page', 'simple-footnotes-editor-button' ) . '"
+						title : "' . __( 'Insert a footnote', 'simple-footnotes-editor-button' ) . '"
 					});
 				}
 			});
@@ -100,11 +100,11 @@ class simple_footnotes_editor_button {
 		<div style="display:none;">
 			<form id="simple-footnotes-editor-button" tabindex="-1">
 				<div style="margin: 1em">
-					<p class="howto"><?php _e( 'Entrer le contenu de la note de bas de page', 'simple-footnotes-editor-button' ); ?></p>
+					<p class="howto"><?php _e( 'Enter the content of the footnote', 'simple-footnotes-editor-button' ); ?></p>
 					<textarea id="simple-footnotes-editor-button-content" rows="4" style="width: 95%; margin-bottom: 1em"></textarea>
 					<div class="submitbox" style="margin-bottom: 1em">
 						<div id="simple-footnotes-editor-button-insert" class="alignright">
-							<input type="submit" value="<?php esc_attr_e( 'Insérer', 'simple-footnotes-editor-button' ); ?>" class="button-primary">
+							<input type="submit" value="<?php esc_attr_e( 'Insert', 'simple-footnotes-editor-button' ); ?>" class="button-primary">
 						</div>
 						<div id="simple-footnotes-editor-button-cancel">
 							<a class="submitdelete deletion" href="#"><?php _e( 'Cancel' ); ?></a>
