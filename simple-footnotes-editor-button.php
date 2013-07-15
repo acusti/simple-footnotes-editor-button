@@ -3,7 +3,7 @@
  * Plugin Name: Simple Footnotes Editor Button
  * Plugin URI: http://wordpress.org/extend/plugins/simple-footnotes-editor-button/
  * Plugin Description: Adds a button to the TinyMCE editor toolbar in the second row that makes it easy for users to add footnotes with the proper syntax.
- * Version: 0.2
+ * Version: 0.21
  * Author: Andrew Patton
  * Author URI: http://www.purecobalt.com/
  * License: CC0
