@@ -108,7 +108,7 @@ class simple_footnotes_editor_button {
 							<input type="submit" value="<?php esc_attr_e( 'Insert', 'simple-footnotes-editor-button' ); ?>" class="button-primary">
 						</div>
 						<div id="simple-footnotes-editor-button-cancel">
-							<a class="submitdelete deletion" href="#"><?php _e( 'Cancel' , 'simple-footnotes-editor-button'); ?></a>
+							<a class="submitdelete deletion" href="#"><?php _e( 'Cancel' , 'simple-footnotes-editor-button' ); ?></a>
 						</div>
 					</div>
 				</div>
