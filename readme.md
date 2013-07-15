@@ -3,7 +3,7 @@ __Contributors:__ acusti
 __Tags:__ footnotes, endnotes, wysiwig, tinymce, toolbar, button  
 __Requires at least:__ 3.0  
 __Tested up to:__ 3.5.2  
-__Stable tag:__ 0.21  
+__Stable tag:__ 0.2.1  
 
 Add a button to the TinyMCE editor toolbar to make it easy for users to add footnotes with the proper syntax for the Simple Footnotes plugin.
 
@@ -27,7 +27,7 @@ This tiny plugin makes it incredibly simple to create those footnotes, leaving n
 
 ## Changelog ##
 
-### 0.21 ###
+### 0.2.1 ###
  * Added check to only load the toolbar button if the Simple Footnotes plugin is enabled.
  * Prepared plugin for release on WordPress plugin repository.
 
