@@ -28,7 +28,7 @@ class simple_footnotes_editor_button {
 	 * @since Simple Footnotes Editor Button 0.1
 	 */
 	function init_simple_footnotes_editor_button() {
-		if ( ! current_user_can( 'edit_posts' ) && ! current_user_can( 'edit_pages' ) )
+		if ( ! current_user_can( 'edit_posts' ) && ! current_user_can( 'edit_pages' ) || ! class_exists( 'nacin_footnotes' ) )
 			return;
 		
 		if ( get_user_option( 'rich_editing' ) == 'true' ) {
